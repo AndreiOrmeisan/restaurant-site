@@ -3,6 +3,7 @@
   "name": "FORNO",
   "tagline": "Pizza & More",
   "logo": "/restaurants/forno/logo.svg",
+  "heroImage": "/restaurants/forno/hero.webp",
   "layout": "classic",
   "theme": {
     "primary": "#B83D2F",
