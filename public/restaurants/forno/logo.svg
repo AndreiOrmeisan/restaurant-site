@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" role="img" aria-labelledby="title">
+  <title id="title">FORNO</title>
+  <path fill="#B83D2F" d="M12 102V53a42 42 0 0 1 84 0v49H12Z"/>
+  <path fill="#F8F3EB" d="M26 88V54a28 28 0 0 1 56 0v34H26Z"/>
+  <path fill="#D9A35F" d="M54 81a13 13 0 0 1-13-13c0-6 4-12 9-17 0 6 3 9 5 10 3-5 5-10 5-15 6 7 9 14 9 21a14 14 0 0 1-15 14Z"/>
+  <text x="109" y="80" fill="#25211E" font-family="Georgia, serif" font-size="55" font-weight="700" letter-spacing="2">FORNO</text>
+</svg>

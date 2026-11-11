@@ -1,0 +1,183 @@
+{
+  "slug": "forno",
+  "name": "FORNO",
+  "tagline": "Pizza & More",
+  "logo": "/restaurants/forno/logo.svg",
+  "layout": "classic",
+  "theme": {
+    "primary": "#B83D2F",
+    "background": "#F8F3EB",
+    "text": "#25211E",
+    "accent": "#D9A35F"
+  },
+  "deliveryAvailable": false,
+  "categories": [
+    {
+      "id": "pizza",
+      "name": "Pizza",
+      "products": [
+        {
+          "id": "margherita",
+          "name": "Margherita",
+          "description": "Sos de roșii, mozzarella fior di latte și busuioc proaspăt.",
+          "price": 36,
+          "currency": "RON",
+          "quantity": "390 g",
+          "available": true,
+          "allergens": ["Gluten", "Lapte"]
+        },
+        {
+          "id": "diavola",
+          "name": "Diavola",
+          "description": "Mozzarella, salam picant și sos de roșii.",
+          "price": 45,
+          "currency": "RON",
+          "quantity": "440 g",
+          "available": true,
+          "allergens": ["Gluten", "Lapte"]
+        },
+        {
+          "id": "funghi",
+          "name": "Funghi",
+          "description": "Ciuperci rumenite, mozzarella, cimbru și parmezan.",
+          "price": 43,
+          "currency": "RON",
+          "quantity": "430 g",
+          "available": true,
+          "allergens": ["Gluten", "Lapte"]
+        },
+        {
+          "id": "prosciutto-rucola",
+          "name": "Prosciutto e rucola",
+          "description": "Prosciutto crudo, rucola proaspătă și fulgi de parmezan.",
+          "price": 49,
+          "currency": "RON",
+          "quantity": "460 g",
+          "available": true,
+          "allergens": ["Gluten", "Lapte"]
+        }
+      ]
+    },
+    {
+      "id": "paste",
+      "name": "Paste",
+      "products": [
+        {
+          "id": "rigatoni-ragu",
+          "name": "Rigatoni cu ragù",
+          "description": "Paste cu ragù de vită gătit lent, roșii și parmezan.",
+          "price": 48,
+          "currency": "RON",
+          "quantity": "360 g",
+          "available": true,
+          "allergens": ["Gluten", "Lapte", "Țelină"]
+        },
+        {
+          "id": "tagliatelle-ciuperci",
+          "name": "Tagliatelle cu ciuperci",
+          "description": "Paste cu ou, ciuperci sotate, usturoi, unt și parmezan.",
+          "price": 46,
+          "currency": "RON",
+          "quantity": "340 g",
+          "available": true,
+          "allergens": ["Gluten", "Ouă", "Lapte"]
+        },
+        {
+          "id": "penne-arrabbiata",
+          "name": "Penne all’arrabbiata",
+          "description": "Sos de roșii cu usturoi, ardei iute și pătrunjel.",
+          "price": 39,
+          "currency": "RON",
+          "quantity": "330 g",
+          "available": true,
+          "allergens": ["Gluten"]
+        }
+      ]
+    },
+    {
+      "id": "salate",
+      "name": "Salate",
+      "products": [
+        {
+          "id": "caprese",
+          "name": "Salată Caprese",
+          "description": "Roșii, mozzarella proaspătă, busuioc și ulei de măsline.",
+          "price": 34,
+          "currency": "RON",
+          "quantity": "250 g",
+          "available": true,
+          "allergens": ["Lapte"]
+        },
+        {
+          "id": "salata-pui",
+          "name": "Salată cu pui la grătar",
+          "description": "Mix de frunze, pui la grătar, roșii cherry și dressing cu lămâie și muștar.",
+          "price": 41,
+          "currency": "RON",
+          "quantity": "320 g",
+          "available": true,
+          "allergens": ["Muștar"]
+        }
+      ]
+    },
+    {
+      "id": "deserturi",
+      "name": "Deserturi",
+      "products": [
+        {
+          "id": "tiramisu",
+          "name": "Tiramisù",
+          "description": "Pișcoturi înmuiate în espresso, cremă de mascarpone și cacao.",
+          "price": 27,
+          "currency": "RON",
+          "quantity": "160 g",
+          "available": true,
+          "allergens": ["Gluten", "Ouă", "Lapte"]
+        },
+        {
+          "id": "panna-cotta",
+          "name": "Panna cotta",
+          "description": "Cremă de vanilie cu sos de zmeură.",
+          "price": 25,
+          "currency": "RON",
+          "quantity": "150 g",
+          "available": true,
+          "allergens": ["Lapte"]
+        }
+      ]
+    },
+    {
+      "id": "bauturi",
+      "name": "Băuturi",
+      "products": [
+        {
+          "id": "limonada",
+          "name": "Limonadă cu mentă",
+          "description": "Suc proaspăt de lămâie, mentă și sirop de zahăr.",
+          "price": 19,
+          "currency": "RON",
+          "quantity": "400 ml",
+          "available": true
+        },
+        {
+          "id": "espresso",
+          "name": "Espresso",
+          "description": "Cafea cu note de ciocolată și alune.",
+          "price": 11,
+          "currency": "RON",
+          "quantity": "30 ml",
+          "available": true
+        },
+        {
+          "id": "apa-minerala",
+          "name": "Apă minerală carbogazoasă",
+          "description": "Apă minerală servită rece.",
+          "price": 12,
+          "currency": "RON",
+          "quantity": "330 ml",
+          "available": true
+        }
+      ]
+    }
+  ]
+}
