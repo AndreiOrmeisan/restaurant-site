@@ -1,0 +1,2461 @@
+{
+  "slug": "mega-park",
+  "name": "Mega Park",
+  "tagline": "Pizza & More",
+  "logo": "/restaurants/mega-park/logo.webp",
+  "logoStyle": "seal",
+  "heroImage": "/restaurants/mega-park/hero.webp",
+  "layout": "classic",
+  "theme": {
+    "primary": "#775C28",
+    "background": "#F8F4EC",
+    "text": "#252820",
+    "accent": "#BEA545"
+  },
+  "hero": {
+    "eyebrow": "MEGA PARK · APAHIDA",
+    "title": "Bucuria de a\nmânca",
+    "emphasis": "bine.",
+    "description": "De la pizza și paste la burgeri și preparate la grill.\nGusturi pentru fiecare, într-un loc primitor.",
+    "imageAlt": "Interiorul restaurantului Mega Park din Apahida, cu plante, mese din lemn și lumină caldă"
+  },
+  "about": {
+    "title": "Un loc pentru gusturi și oameni.",
+    "description": "De peste un deceniu, Mega Park aduce în Apahida un meniu variat, de la pizza și paste la burgeri și preparate la grill. Ingredientele atent alese, atmosfera cu accente retro și ospitalitatea echipei fac loc meselor relaxate și momentelor petrecute împreună."
+  },
+  "menuDescription": "Alege ce îți face poftă. Descoperă meniul Mega Park.",
+  "phone": "+40773812484",
+  "email": "megaparkquality@gmail.com",
+  "address": "Apahida · Str. Libertății 132",
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=MegaPark+Libertatii+132+Apahida",
+  "openingHours": [
+    "Luni – Sâmbătă: 10:00 – 22:00",
+    "Duminică: 12:00 – 22:00"
+  ],
+  "deliveryAvailable": true,
+  "categories": [
+    {
+      "id": "aperitive",
+      "name": "Aperitive",
+      "icon": "starter",
+      "products": [
+        {
+          "id": "aperitive-bruschete-cu-rosii-si-prosciutto-crudo",
+          "name": "Bruschete cu Rosii si Prosciutto Crudo",
+          "description": "Paine cu seminte 100g, rosii 80g, usturoi, prosciutto crudo 30g.",
+          "price": 27,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Oua",
+            "Gluten"
+          ]
+        },
+        {
+          "id": "aperitive-bruschete",
+          "name": "Bruschete",
+          "description": "Paine cu seminte 100g, rosii 80g, usturoi.",
+          "price": 25,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Oua",
+            "Gluten"
+          ]
+        },
+        {
+          "id": "aperitive-platoul-casei-2-persoane",
+          "name": "Platoul Casei (2 persoane)",
+          "description": "Parmezan 40g, brie 40g, gorgonzola 40g, nuci 20g, salam ventricina 40g, sunca 40g, prosciutto crudo 40g, salam Napoli 40g, gem de afine 30g, pasta de hrean 30g, focaccia 200g.",
+          "price": 90,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Lactoza",
+            "Soia",
+            "Gluten",
+            "Nuca"
+          ]
+        },
+        {
+          "id": "aperitive-caprese",
+          "name": "Caprese",
+          "description": "Branza buffalo , rosi cherry , ulei de patrunjel",
+          "price": 28,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "aperitive-creveti-pil-pil-picant-sau-nepicant-200g",
+          "name": "CREVEȚI PIL-PIL (PICANT SAU NEPICANT)",
+          "description": "Praz, ardei, roșii cherry, creveți, ardei iute, pâine prăjită.",
+          "price": 35,
+          "currency": "RON",
+          "available": true,
+          "quantity": "200g",
+          "allergens": [
+            "crustacee",
+            "usturoi",
+            "gluten"
+          ]
+        },
+        {
+          "id": "aperitive-salata-de-vinete-230g",
+          "name": "SALATĂ DE VINETE",
+          "description": "Vinete coapte, ceapă roșie, maioneză vegană, pâine prăjită.",
+          "price": 24,
+          "currency": "RON",
+          "available": true,
+          "quantity": "230G",
+          "allergens": [
+            "gluten"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "burgeri",
+      "name": "Burgeri",
+      "icon": "burger",
+      "products": [
+        {
+          "id": "burgeri-burger-de-pui-crispy",
+          "name": "Burger de Pui Crispy",
+          "description": "Snitel de pui crispy 150g, chifla brioche 80g, sos cedar 30g, ceapa rosie 20g, sos bbq 20g, salata 20g, rosie 30g.",
+          "price": 38,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Lactoza",
+            "Gluten",
+            "Oua",
+            "Soia"
+          ]
+        },
+        {
+          "id": "burgeri-burgerul-megapark",
+          "name": "Burgerul MegaPark",
+          "description": "Carne de vita 200g, chifla brioche 80g, sosul burger 30g, salata 20g, bacon 30g, ceapa 20g, castraveti murati 20g, rosii 30g.",
+          "price": 39,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Gluten",
+            "Oua",
+            "Seminte",
+            "Lactoza"
+          ]
+        },
+        {
+          "id": "burgeri-cheeseburger-megapark",
+          "name": "Cheeseburger MegaPark",
+          "description": "Carne de vita 200g, chifla brioche 80g, sosul casei 30g, salata 10g, bacon 30g, ceapa rosie 20g, castraveti murati 20g, branza cedar 60g, sos de branza cedar 30g.",
+          "price": 40,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Gluten",
+            "Oua",
+            "Seminte",
+            "Lactoza"
+          ]
+        },
+        {
+          "id": "burgeri-dublu-smash-burger-350g",
+          "name": "DUBLU SMASH BURGER",
+          "description": "Salată coleslaw, castraveți murați, dublu carne de vită, felie cheddar, sos cheddar, ceapă caramelizată.",
+          "price": 44,
+          "currency": "RON",
+          "available": true,
+          "quantity": "350G",
+          "allergens": [
+            "lactoză",
+            "gluten",
+            "ou",
+            "zahăr"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paste",
+      "name": "Paste",
+      "icon": "pasta",
+      "products": [
+        {
+          "id": "paste-spaghetti-carbonara",
+          "name": "Spaghetti Carbonara",
+          "description": "Paste spaghetti 130g, guanciale 50g, parmezan 30g, oua.",
+          "price": 35,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Lactoza",
+            "Gluten"
+          ]
+        },
+        {
+          "id": "paste-linguini-cu-creveti",
+          "name": "Linguini cu Creveti",
+          "description": "Paste fainoase 130g, creveti 80g, smantana de gatit/sos de roșii 50g, parmezan 30g, usturoi, busuioc.",
+          "price": 41,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Lactoza",
+            "Gluten",
+            "Peste"
+          ]
+        },
+        {
+          "id": "paste-paste-al-forno-cu-pui-si-broccoli",
+          "name": "Paste al Forno cu Pui si Broccoli",
+          "description": "Paste rigatoni 150g, pui 50g, sos alb 80ml, broccoli 50g, parmezan 20g, mozzarella 60g, usturoi.",
+          "price": 35,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Oua",
+            "Lactoza",
+            "Gluten"
+          ]
+        },
+        {
+          "id": "paste-paste-quatro-formagi",
+          "name": "Paste Quatro Formagi",
+          "description": "Paste fainoase 130g, gorgonzola 30g, brie 30g, parmezan 30g, mozzarella 30g.",
+          "price": 35,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Gluten",
+            "Lactoza",
+            "Oua"
+          ]
+        },
+        {
+          "id": "paste-paste-cu-burrata-si-sos-de-rosii-400g",
+          "name": "PASTE CU BURRATA ȘI SOS DE ROȘII",
+          "description": "Sos de roșii, roșii cherry, burrata.",
+          "price": 38,
+          "currency": "RON",
+          "available": true,
+          "quantity": "400G",
+          "allergens": [
+            "gluten",
+            "usturoi",
+            "lactoză"
+          ]
+        },
+        {
+          "id": "paste-paste-al-scoglio-350g",
+          "name": "PASTE AL SCOGLIO",
+          "description": "Sos de roșii, roșii cherry, fructe de mare.",
+          "price": 43,
+          "currency": "RON",
+          "available": true,
+          "quantity": "350G",
+          "allergens": [
+            "gluten",
+            "lactoză",
+            "usturoi",
+            "crustacee"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "preparate-din-pui",
+      "name": "Preparate din pui",
+      "icon": "meat",
+      "products": [
+        {
+          "id": "preparate-din-pui-crispy-de-pui-picant-nepicant",
+          "name": "Crispy de Pui Picant/Nepicant",
+          "description": "Crispy de Pui Picant/Nepicant",
+          "price": 29,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Gluten",
+            "Oua"
+          ]
+        },
+        {
+          "id": "preparate-din-pui-aripioare-crispy-picante",
+          "name": "Aripioare Crispy Picante",
+          "description": "Aripioare Crispy Picante",
+          "price": 31,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Gluten",
+            "Oua"
+          ]
+        },
+        {
+          "id": "preparate-din-pui-snitel-de-pui-panko",
+          "name": "Snitel de Pui Panko",
+          "description": "Snitel de Pui Panko",
+          "price": 31,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Gluten",
+            "Oua"
+          ]
+        },
+        {
+          "id": "preparate-din-pui-piept-de-pui-la-grill",
+          "name": "Piept de Pui la Grill",
+          "description": "Piept de pui 250g, sare si piper",
+          "price": 28,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "preparate-din-pui-pulpe-dezosate-la-grill-250g",
+          "name": "PULPE DEZOSATE LA GRILL",
+          "description": "Pulpe de pui 250g",
+          "price": 29,
+          "currency": "RON",
+          "available": true,
+          "quantity": "250G"
+        },
+        {
+          "id": "preparate-din-pui-piept-de-pui-la-grill-cu-sos-de-hribi-350g",
+          "name": "PIEPT DE PUI LA GRILL CU SOS DE HRIBI",
+          "description": "Piept de pui, hribi,",
+          "price": 48,
+          "currency": "RON",
+          "available": true,
+          "quantity": "350G",
+          "allergens": [
+            "lactoză"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "preparate-din-porc",
+      "name": "Preparate din porc",
+      "icon": "meat",
+      "products": [
+        {
+          "id": "preparate-din-porc-snitel-de-porc-in-pesmet",
+          "name": "Snitel de Porc in Pesmet",
+          "description": "Cotlet de porc 250g, Pesmet, Ou.",
+          "price": 32,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Gluten",
+            "Oua"
+          ]
+        },
+        {
+          "id": "preparate-din-porc-ceafa-de-porc-la-grill",
+          "name": "Ceafa de Porc la Grill",
+          "description": "Ceafă de porc 250g, Sare, Piper",
+          "price": 28,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "preparate-din-porc-cotlet-de-porc-megapark",
+          "name": "Cotlet de Porc Megapark",
+          "description": "Cotlet de porc 250g, mozzarella 50g.",
+          "price": 33,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Lactoza",
+            "Oua"
+          ]
+        },
+        {
+          "id": "preparate-din-porc-cotlet-de-porc-la-grill",
+          "name": "Cotlet de Porc la Grill",
+          "description": "Cotlet 250g, Sare, Piper",
+          "price": 27,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "preparate-din-porc-muschiulet-de-porc-megapark-cu-cartofi-copti-400g",
+          "name": "MUȘCHIULEȚ DE PORC MEGAPARK CU CARTOFI COPȚI 400G",
+          "description": "400G",
+          "price": 48,
+          "currency": "RON",
+          "available": true,
+          "quantity": "400G",
+          "allergens": [
+            "usturoi",
+            "lactoză",
+            "gluten"
+          ]
+        },
+        {
+          "id": "preparate-din-porc-aripioare-de-porc-cu-cartofi-copti-si-sos-chilly-sos-bbq-450g",
+          "name": "ARIPIOARE DE PORC CU CARTOFI COPȚI ȘI SOS CHILLY/ SOS BBQ",
+          "description": "450G",
+          "price": 53,
+          "currency": "RON",
+          "available": true,
+          "quantity": "450G",
+          "allergens": [
+            "usturoi",
+            "lactoză",
+            "gluten",
+            "muștar",
+            "oțet",
+            "piper"
+          ]
+        },
+        {
+          "id": "preparate-din-porc-ciolan-afumat-cu-os-si-iahnie-de-fasole-750g",
+          "name": "CIOLAN AFUMAT CU OS ȘI IAHNIE DE FASOLE",
+          "description": "750G",
+          "price": 66,
+          "currency": "RON",
+          "available": true,
+          "quantity": "750G",
+          "allergens": [
+            "usturoi",
+            "lactoză"
+          ]
+        },
+        {
+          "id": "preparate-din-porc-ceafa-de-porc-la-grill-cu-sos-de-hribi-350g",
+          "name": "CEAFĂ DE PORC LA GRILL CU SOS DE HRIBI",
+          "description": "350G",
+          "price": 51,
+          "currency": "RON",
+          "available": true,
+          "quantity": "350G",
+          "allergens": [
+            "lactoză"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peste",
+      "name": "Pește",
+      "icon": "fish",
+      "products": [
+        {
+          "id": "peste-somon-la-gratar-cu-legume-la-grill",
+          "name": "somon la grătar cu legume la grill",
+          "description": "Somon la grătar 250g, ulei de măsline, mazare, mentă, unt aromatizat cu ierburi aromate - 400g",
+          "price": 79,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "peste-pastrav-la-gratar-in-malai-cu-mamaliga",
+          "name": "păstrav la grătar/ în mălai cu mămăligă",
+          "description": "Păstrav 250-300g, ulei de măsline, mămăligă/ păstrav 250g-300, ulei de măsline, mălai, mămăligă",
+          "price": 46,
+          "currency": "RON",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "vita",
+      "name": "Vită",
+      "icon": "meat",
+      "products": [
+        {
+          "id": "vita-muschi-de-vita-la-grill",
+          "name": "MUȘCHI DE VITĂ LA GRILL",
+          "description": "200g",
+          "price": 140,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "vita-muschi-de-vita-la-grill-cu-sos-de-piper-si-cartofi-copti-aurii",
+          "name": "MUȘCHI DE VITĂ LA GRILL CU SOS DE PIPER ȘI CARTOFI COPȚI/AURII",
+          "description": "MUȘCHI DE VITĂ LA GRILL CU SOS DE PIPER ȘI CARTOFI COPȚI/AURII",
+          "price": 155,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Lactoză",
+            "gluten",
+            "350g"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "preparate-de-post-si-vegane",
+      "name": "Preparate de post și vegane",
+      "icon": "vegan",
+      "products": [
+        {
+          "id": "preparate-de-post-si-vegane-burger-vegan",
+          "name": "Burger vegan",
+          "description": "Chiflă vegană, sos bbq, brânză vegană, salată verde, castravete murat, chiftea de post vegană, ceapă caramelizată, sosul casei - vegan) - 270g",
+          "price": 37,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "preparate-de-post-si-vegane-salata-de-vinete",
+          "name": "Salată de vinete",
+          "description": "Vinete coapte, ceapă roșie, maioneză vegană, pâine prăjită) - 230g",
+          "price": 24,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "preparate-de-post-si-vegane-paste-arabiata",
+          "name": "Paste Arabiata",
+          "description": "Paste, roșii cherry, usturoi, pătrunjel verde, sos roșii) - 250g",
+          "price": 32,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "preparate-de-post-si-vegane-ciorba-legume",
+          "name": "Ciorbă legume",
+          "description": "Mix de legume rădăcinoase, fasole păstăi, mazăre verde, varză, cartofi, pastă de tomate) - 450g",
+          "price": 20,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "preparate-de-post-si-vegane-pizza-vegana",
+          "name": "Pizza vegană",
+          "description": "Blat de pizza vegan, sos de roșii, ciuperci, ardei, ceapă roșie, porumb, măsline, roșii cherry) - 390g",
+          "price": 33,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "preparate-de-post-si-vegane-snitel-vegan-si-cartofi-aurii-350g",
+          "name": "Șnițel vegan și cartofi aurii",
+          "description": "350g",
+          "price": 37,
+          "currency": "RON",
+          "available": true,
+          "quantity": "350g",
+          "allergens": [
+            "soia",
+            "gluten",
+            "lactoză"
+          ]
+        },
+        {
+          "id": "preparate-de-post-si-vegane-hribi-sote-cu-mamaliguta-350g",
+          "name": "HRIBI SOTE CU MĂMĂLIGUȚĂ",
+          "description": "350G",
+          "price": 39,
+          "currency": "RON",
+          "available": true,
+          "quantity": "350G"
+        },
+        {
+          "id": "preparate-de-post-si-vegane-iahnie-de-fasole-350g",
+          "name": "IAHNIE DE FASOLE",
+          "description": "Iahnie de fasole, pâine prăjită.",
+          "price": 30,
+          "currency": "RON",
+          "available": true,
+          "quantity": "350G",
+          "allergens": [
+            "gluten"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pizza",
+      "name": "Pizza",
+      "icon": "pizza",
+      "products": [
+        {
+          "id": "pizza-margherita",
+          "name": "Margherita",
+          "description": "(Sos roșii, mozzarella) – 380 gr.",
+          "price": 28,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-dama-bianca",
+          "name": "Dama Bianca",
+          "description": "(Mozzarella, oregano) - 380 gr.",
+          "price": 27,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-funghi",
+          "name": "Funghi",
+          "description": "(Sos roșii, mozzarella, ciuperci) - 400 gr.",
+          "price": 30,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-prosciutto",
+          "name": "Prosciutto",
+          "description": "(Sos roșii, mozzarella, prosciutto) - 420 gr.",
+          "price": 32,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-salami",
+          "name": "Salami",
+          "description": "(Sos roșii, mozzarella, salam) - 440 gr.",
+          "price": 32,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-prosciutto-e-funghi",
+          "name": "Prosciutto e Funghi",
+          "description": "(Sos roșii, mozzarella, șuncă, ciuperci) - 450 gr.",
+          "price": 34,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-ventricina",
+          "name": "Ventricina",
+          "description": "(Sos roșii, mozzarella, salam ventricina) - 420 gr.",
+          "price": 36,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-diavolo",
+          "name": "Diavolo",
+          "description": "(Sos roșii, mozzarella, salam, șuncă, ciuperci) - 460 gr.",
+          "price": 34,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-hawai",
+          "name": "Hawai",
+          "description": "(Sos roșii, mozzarella, șuncă, ananas) - 440 gr.",
+          "price": 35,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-o-sole-mio",
+          "name": "O Sole Mio",
+          "description": "(Sos roșii, mozzarella, salam, ou, șuncă) - 470 gr.",
+          "price": 34,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-tonno",
+          "name": "Tonno",
+          "description": "(Sos roșii, mozzarella, ton) – 420 gr.",
+          "price": 33,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-tonno-cipolla",
+          "name": "Tonno Cipolla",
+          "description": "(Sos roșii, mozzarella, ton, ceapă) - 440 gr.",
+          "price": 34,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-pollo",
+          "name": "Pollo",
+          "description": "(Sos roșii, mozzarella, piept de pui, ciuperci, ardei) - 480 gr.",
+          "price": 35,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-yoyo",
+          "name": "Yoyo",
+          "description": "(Sos roșii, mozzarella, ciuperci, ardei, măsline, ceapă, porumb, șuncă) - 500 gr.",
+          "price": 36,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-capriciosa",
+          "name": "Capriciosa",
+          "description": "(Sos roșii, mozzarella, ciuperci, salam, sunca, carciofi) – 460 gr.",
+          "price": 35,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-vegetariana",
+          "name": "Vegetariana",
+          "description": "(Sos roșii, mozzarella, ciuperci, ardei, măsline, ceapă, porumb, roșii) - 450 gr.",
+          "price": 34,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-quattro-stagioni",
+          "name": "Quattro Stagioni",
+          "description": "(Sos roșii, mozzarella, măsline, ton, șuncă, ardei gras) - 480 gr.",
+          "price": 35,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-quattro-formaggi",
+          "name": "Quattro Formaggi",
+          "description": "(Sos roșii, mozzarella, brie, gorgonzola, parmezan, grana) - 440 gr.",
+          "price": 37,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-formagi",
+          "name": "Formagi",
+          "description": "(Sos de roșii, mozzarella , gorgonzola) 400gr.",
+          "price": 35,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-campagnola",
+          "name": "Campagnola",
+          "description": "(Sos roșii, mozzarella, salam, șuncă) - 460 gr.",
+          "price": 34,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-mega-park",
+          "name": "Mega Park",
+          "description": "(Sos roșii, mozzarella, roșii cherry, rucola, prosciutto crudo, grana) - 440 gr.",
+          "price": 38,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-zingara",
+          "name": "Zingara",
+          "description": "(Mozzarella, roșii cherry, ardei, prosciutto crudo) - 420 gr.",
+          "price": 35,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-canibale",
+          "name": "Canibale",
+          "description": "(sos roșii, mozarella, șuncă, salam, kaizer, cârnaț afumat) - 550 gr.",
+          "price": 40,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-san-daniele",
+          "name": "San Daniele",
+          "description": "(Sos roșii, mozzarella, prosciutto crudo) - 420 gr.",
+          "price": 34,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-calzone-farcito",
+          "name": "Calzone Farcito",
+          "description": "(Sos roșii, mozzarella, ardei, șuncă, ciuperci) – 460 gr.",
+          "price": 34,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-patatine-frite",
+          "name": "Patatine Frite",
+          "description": "(Sos roșii, mozzarella, cartofi prăjiți) - 500 gr.",
+          "price": 31,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-taraneasca",
+          "name": "Țărănească",
+          "description": "(Sos roșii, mozzarella, cârnați, ceapă, kaizer) – 480 gr.",
+          "price": 36,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-roma",
+          "name": "Roma",
+          "description": "(Sos roșii, mozzarella, bufala, roșii uscate, bacon, grana) - 470 gr.",
+          "price": 41,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-sicilia",
+          "name": "Sicilia",
+          "description": "(Sos roșii, mozzarella, bufala, mortadella, busuioc) – 460 gr.",
+          "price": 39,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-pizza-gorgonzola-picante-480g",
+          "name": "PIZZA GORGONZOLA PICANTE",
+          "description": "Sos de roșii, mozzarella, gorgonzola picantă, salam Ventricina.",
+          "price": 43,
+          "currency": "RON",
+          "available": true,
+          "quantity": "480G"
+        },
+        {
+          "id": "pizza-foccacia",
+          "name": "Foccacia",
+          "description": "(Aluat, ulei de masline)",
+          "price": 18,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-straciatella-e-pistacho",
+          "name": "Straciatella e pistacho",
+          "description": "(sos de roșii, mozarella, pistacho, mortadella)",
+          "price": 44,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "pizza-peperoni",
+          "name": "Peperoni",
+          "description": "(sos de roșii, mozzarella, salam peperoni) - 450 gr",
+          "price": 38,
+          "currency": "RON",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "salate",
+      "name": "Salate",
+      "icon": "salad",
+      "products": [
+        {
+          "id": "salate-salata-mega-park",
+          "name": "Salata Mega Park",
+          "description": "Mix de salata 60g, castraveti 30g, ciuperci 30g, oua 1 buc, feta 30g, masline, crutoane, piept de pui la grill 80g.",
+          "price": 38,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Oua",
+            "Ciuperci",
+            "Lactoza",
+            "Gluten"
+          ]
+        },
+        {
+          "id": "salate-salata-caesar",
+          "name": "Salata Caesar",
+          "description": "Pui crispy 120g, salata de sezon 80g, sos Caesar facut in casa 30g, parmezan 20g, crutoane, chips de bacon, rosii cherry 30g. -",
+          "price": 37,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Peste",
+            "Oua",
+            "Lactoza",
+            "Gluten"
+          ]
+        },
+        {
+          "id": "salate-salata-cu-ton",
+          "name": "Salata cu Ton",
+          "description": "Mix de salata 80g, ton 80g, ceapa rosie 30g, porumb 30g, fasole 50g, ardei 30g, masline 30g.",
+          "price": 35,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Peste"
+          ]
+        },
+        {
+          "id": "salate-salata-crispy",
+          "name": "Salata Crispy",
+          "description": "Mix salata 80g, pui crispy 120g, masline 60g, rosii cherry 60g, branza feta 30g, porumb 50g.",
+          "price": 35,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Lactoza"
+          ]
+        },
+        {
+          "id": "salate-salata-cu-creveti-350g",
+          "name": "SALATĂ CU CREVEȚI",
+          "description": "Mix de salată, creveți, avocado, castraveți, roșii cherry, porumb, sos de lămâie.",
+          "price": 41,
+          "currency": "RON",
+          "available": true,
+          "quantity": "350G",
+          "allergens": [
+            "crustacee",
+            "lactoză"
+          ]
+        },
+        {
+          "id": "salate-salata-de-varza-150g",
+          "name": "SALATĂ DE VARZĂ",
+          "description": "150G",
+          "price": 11,
+          "currency": "RON",
+          "available": true,
+          "quantity": "150G"
+        },
+        {
+          "id": "salate-salata-de-sfecla-murata-150g",
+          "name": "SALATĂ DE SFECLĂ MURATĂ",
+          "description": "150G",
+          "price": 12,
+          "currency": "RON",
+          "available": true,
+          "quantity": "150G"
+        },
+        {
+          "id": "salate-castraveti-murati-150g",
+          "name": "CASTRAVEȚI MURAȚI",
+          "description": "150G",
+          "price": 11,
+          "currency": "RON",
+          "available": true,
+          "quantity": "150G"
+        },
+        {
+          "id": "salate-salata-de-ardei-copti-150g",
+          "name": "SALATĂ DE ARDEI COPȚI",
+          "description": "150G",
+          "price": 13,
+          "currency": "RON",
+          "available": true,
+          "quantity": "150G"
+        },
+        {
+          "id": "salate-salata-de-rosii-si-castraveti-150g",
+          "name": "SALATĂ DE ROȘII ȘI CASTRAVEȚI 150G",
+          "description": "150G",
+          "price": 11,
+          "currency": "RON",
+          "available": true,
+          "quantity": "150G"
+        },
+        {
+          "id": "salate-salata-de-ceapa-100g",
+          "name": "SALATĂ DE CEAPĂ 100G",
+          "description": "100G",
+          "price": 10,
+          "currency": "RON",
+          "available": true,
+          "quantity": "100G"
+        },
+        {
+          "id": "salate-salata-asortata-de-cruditati-150g",
+          "name": "SALATĂ ASORTATĂ DE CRUDITĂȚI 150G",
+          "description": "150G",
+          "price": 12,
+          "currency": "RON",
+          "available": true,
+          "quantity": "150G"
+        },
+        {
+          "id": "salate-salata-muraturi-asortate-150g",
+          "name": "SALATĂ MURĂTURI ASORTATE 150G",
+          "description": "150G",
+          "price": 12,
+          "currency": "RON",
+          "available": true,
+          "quantity": "150G"
+        },
+        {
+          "id": "salate-salata-de-rosii-150g",
+          "name": "SALATĂ DE ROȘII 150G",
+          "description": "150G",
+          "price": 11,
+          "currency": "RON",
+          "available": true,
+          "quantity": "150G"
+        },
+        {
+          "id": "salate-salata-de-rosii-cherry-150g",
+          "name": "SALATĂ DE ROȘII CHERRY 150G",
+          "description": "150G",
+          "price": 15,
+          "currency": "RON",
+          "available": true,
+          "quantity": "150G"
+        }
+      ]
+    },
+    {
+      "id": "ciorbe",
+      "name": "Ciorbe",
+      "icon": "soup",
+      "products": [
+        {
+          "id": "ciorbe-ciorba-taraneasca-de-vacuta",
+          "name": "ciorbă țărănească de văcuță",
+          "description": "400ml,",
+          "price": 22,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Lactoză",
+            "Gluten"
+          ]
+        },
+        {
+          "id": "ciorbe-ciorba-de-burta",
+          "name": "ciorbă de burtă",
+          "description": "400ml,",
+          "price": 22,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Lactoză",
+            "Gluten",
+            "Ou"
+          ]
+        },
+        {
+          "id": "ciorbe-ciorba-radauteana",
+          "name": "CIORBĂ RĂDĂUȚEANĂ",
+          "description": "CIORBĂ RĂDĂUȚEANĂ",
+          "price": 22,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "lactoză",
+            "usturoi"
+          ]
+        },
+        {
+          "id": "ciorbe-ciorba-taraneasca-cu-afumatura",
+          "name": "CIORBĂ ȚĂRĂNEASCĂ CU AFUMĂTURĂ",
+          "description": "CIORBĂ ȚĂRĂNEASCĂ CU AFUMĂTURĂ",
+          "price": 22,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "lactoză",
+            "usturoi"
+          ]
+        },
+        {
+          "id": "ciorbe-ciorba-de-legume-de-post",
+          "name": "CIORBĂ de legume de post",
+          "description": "CIORBĂ de legume de post",
+          "price": 20,
+          "currency": "RON",
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": "garnituri",
+      "name": "Garnituri",
+      "icon": "starter",
+      "products": [
+        {
+          "id": "garnituri-cartofi-prajiti",
+          "name": "Cartofi Prajiti",
+          "description": "Cartofi 200g",
+          "price": 11,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "garnituri-piure-cartofi",
+          "name": "Piure Cartofi",
+          "description": "Cartofi 200g,",
+          "price": 13,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Lactoza"
+          ]
+        },
+        {
+          "id": "garnituri-cartofi-aurii",
+          "name": "Cartofi Aurii",
+          "description": "Cartofi 200g",
+          "price": 11,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "garnituri-orez-cu-legume",
+          "name": "Orez cu legume",
+          "description": "Ceapa, Morcovi, Telina, Mazare.",
+          "price": 13,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Telina"
+          ]
+        },
+        {
+          "id": "garnituri-legume-la-grill",
+          "name": "Legume la Grill",
+          "description": "Dovlecel 40g, ceapa 40g, vinete 40g, ardei 40g, ciuperci 40g.",
+          "price": 17,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Ciuperci"
+          ]
+        },
+        {
+          "id": "garnituri-cartofi-gratinati",
+          "name": "Cartofi Gratinati",
+          "description": "170g Cartofi.",
+          "price": 23,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Lactoza",
+            "Gluten",
+            "Oua"
+          ]
+        },
+        {
+          "id": "garnituri-cartofi-cu-parmezan-210g",
+          "name": "CARTOFI CU PARMEZAN",
+          "description": "Cartofi aurii, usturoi, pătrunjel, parmezan",
+          "price": 16,
+          "currency": "RON",
+          "available": true,
+          "quantity": "210G",
+          "allergens": [
+            "lactoză",
+            "gluten",
+            "usturoi"
+          ]
+        },
+        {
+          "id": "garnituri-iahnie-de-fasole-350g",
+          "name": "IAHNIE DE FASOLE",
+          "description": "Iahnie de fasole, pâine prăjită.",
+          "price": 30,
+          "currency": "RON",
+          "available": true,
+          "quantity": "350G",
+          "allergens": [
+            "gluten"
+          ]
+        },
+        {
+          "id": "garnituri-hribi-sote-200g",
+          "name": "HRIBI SOTE – 200G/",
+          "description": "HRIBI SOTE – 200G/",
+          "price": 26,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "garnituri-cartofi-cu-cheddar-jalapeno-si-bacon",
+          "name": "CARTOFI CU CHEDDAR, JALAPENO ȘI BACON",
+          "description": "Cartofi prăjiți, sos cheddar, ardei iute, bacon.",
+          "price": 25,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "lactoză",
+            "gluten"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sosuri",
+      "name": "Sosuri",
+      "icon": "starter",
+      "products": [
+        {
+          "id": "sosuri-megapark-sos",
+          "name": "Megapark Sos",
+          "description": "50g.",
+          "price": 9,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Oua",
+            "Lactoza"
+          ]
+        },
+        {
+          "id": "sosuri-gorgonzola-sos",
+          "name": "Gorgonzola Sos",
+          "description": "50g.,",
+          "price": 9,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Lactoza"
+          ]
+        },
+        {
+          "id": "sosuri-bbq-sos",
+          "name": "BBQ Sos",
+          "description": "50g",
+          "price": 8,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "sosuri-aioli-sos",
+          "name": "Aioli Sos",
+          "description": "50g",
+          "price": 8,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "sosuri-chilli-sos",
+          "name": "Chilli Sos",
+          "description": "50g",
+          "price": 8,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "sosuri-maioneza",
+          "name": "Maioneza",
+          "description": "50g",
+          "price": 6,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "sosuri-mujdei",
+          "name": "Mujdei",
+          "description": "50g",
+          "price": 5,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "sosuri-usturoi-cu-smantana",
+          "name": "Usturoi cu Smantana",
+          "description": "50g.",
+          "price": 7,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Lactoza"
+          ]
+        },
+        {
+          "id": "sosuri-sos-burger",
+          "name": "Sos Burger",
+          "description": "50g.",
+          "price": 9,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Oua"
+          ]
+        },
+        {
+          "id": "sosuri-sos-cheddar-50g",
+          "name": "Sos Cheddar",
+          "description": "50g",
+          "price": 9,
+          "currency": "RON",
+          "available": true,
+          "quantity": "50g",
+          "allergens": [
+            "ouă"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deserturi",
+      "name": "Deserturi",
+      "icon": "dessert",
+      "products": [
+        {
+          "id": "deserturi-papanasi",
+          "name": "Papanasi",
+          "description": "Papanasi 300g, smantana 100g, gem (afine, capsuni, cirese) 100g sau Nutella 100g.",
+          "price": 30,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Gluten",
+            "Lactoza",
+            "Oua"
+          ]
+        },
+        {
+          "id": "deserturi-lava-cake",
+          "name": "Lava Cake",
+          "description": "Lava cake 100g, inghetata de vanilie 50g, toping de ciocolata.",
+          "price": 25,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Lactoza",
+            "Gluten",
+            "Oua"
+          ]
+        },
+        {
+          "id": "deserturi-clatite",
+          "name": "Clatite",
+          "description": "Clatite 2 buc, Nutella 80g sau gem (afine, capsuni, cirese) 80g.",
+          "price": 22,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Lactoza",
+            "Gluten",
+            "Oua",
+            "Arahide"
+          ]
+        },
+        {
+          "id": "deserturi-specialitatea-casei-dulce",
+          "name": "Specialitatea Casei Dulce",
+          "description": "Prajitura zilei.",
+          "price": 27,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "Lactoza",
+            "Gluten",
+            "Soia",
+            "Oua",
+            "Alune"
+          ]
+        },
+        {
+          "id": "deserturi-tiramisu",
+          "name": "TIRAMISU",
+          "description": "TIRAMISU",
+          "price": 26,
+          "currency": "RON",
+          "available": true,
+          "allergens": [
+            "lactoză",
+            "gluten",
+            "ouă"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bauturi",
+      "name": "Băuturi",
+      "icon": "drink",
+      "products": [
+        {
+          "id": "bauturi-espresso-scurt-short",
+          "name": "Espresso Scurt/Short",
+          "description": "30 ml",
+          "price": 10,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-americano",
+          "name": "Americano",
+          "description": "60 ml",
+          "price": 10,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-espresso-dublu",
+          "name": "Espresso Dublu",
+          "description": "60 ml",
+          "price": 16,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-cafea-decofeinizata-decaf-coffee",
+          "name": "Cafea Decofeinizata/Decaf Coffee",
+          "description": "30 ml",
+          "price": 11,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-latte-macchiatto",
+          "name": "Latte Macchiatto",
+          "description": "30 ml",
+          "price": 12,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-cappuccino",
+          "name": "Cappuccino",
+          "description": "120 ml",
+          "price": 13,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-cappuccino-viennez",
+          "name": "Cappuccino Viennez",
+          "description": "120 ml",
+          "price": 14,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-ciocolata-calda-hot-chocolate",
+          "name": "Ciocolată Calda/Hot Chocolate",
+          "description": "120 ml",
+          "price": 15,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-ice-coffee",
+          "name": "ICE COFFEE",
+          "description": "300 ml",
+          "price": 17,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-ceai-infuzie-tea-infusion",
+          "name": "Ceai Infuzie/Tea Infusion",
+          "description": "120 ml",
+          "price": 11,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-fresh-portocale-orange-juice",
+          "name": "Fresh Portocale/Orange Juice",
+          "description": "250 ml",
+          "price": 20,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-fresh-grapefruit",
+          "name": "Fresh Grapefruit",
+          "description": "250 ml",
+          "price": 20,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-fresh-mixt-mixed-juice",
+          "name": "Fresh Mixt/Mixed Juice",
+          "description": "250 ml",
+          "price": 20,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-socata",
+          "name": "Socata",
+          "description": "500 ml",
+          "price": 17,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-limonada-lemonade",
+          "name": "Limonada/Lemonade",
+          "description": "500 ml",
+          "price": 18,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-limonada-cu-menta-mint-lemonade",
+          "name": "Limonada cu Menta/Mint Lemonade",
+          "description": "500 ml",
+          "price": 21,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-limonada-cu-fructe-forest-fruits-lemonade",
+          "name": "Limonada cu Fructe/Forest Fruits Lemonade",
+          "description": "500 ml",
+          "price": 21,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-limonada-kiwi-kiwi-lemonade",
+          "name": "Limonada Kiwi/Kiwi Lemonade",
+          "description": "500 ml",
+          "price": 21,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-limonada-pepene-galben-melon-lemonade",
+          "name": "Limonada Pepene Galben/Melon Lemonade",
+          "description": "500 ml",
+          "price": 21,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-limonada-piersici-peach-lemonade",
+          "name": "Limonada Piersici/Peach Lemonade",
+          "description": "500 ml",
+          "price": 21,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-limonada-zmeura",
+          "name": "LIMONADĂ ZMEURĂ",
+          "description": "500 ml",
+          "price": 21,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-limonada-capsuni-strawberry-lemonade",
+          "name": "Limonada Capsuni/Strawberry Lemonade",
+          "description": "500 ml",
+          "price": 21,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-limonada-zmeura-144",
+          "name": "Limonada Zmeură",
+          "description": "500 ml",
+          "price": 21,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-apa-plata-filtrata",
+          "name": "APĂ PLATĂ FILTRATĂ",
+          "description": "750 ml",
+          "price": 14,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-apa-carpatica-minerala",
+          "name": "APĂ CARPATICA (MINERALĂ)",
+          "description": "750 ml",
+          "price": 15,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-apa-carpatica-plata-minerala",
+          "name": "Apă Carpatica (Plata/Minerala)",
+          "description": "500 ml",
+          "price": 8,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-pepsi-cola",
+          "name": "Pepsi Cola",
+          "description": "250 ml",
+          "price": 10,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-pepsi-cola-151",
+          "name": "Pepsi Cola",
+          "description": "500 ml",
+          "price": 11,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-pepsi-twist-lamaie",
+          "name": "Pepsi Twist Lamaie",
+          "description": "500 ml",
+          "price": 11,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-7-up",
+          "name": "7 UP",
+          "description": "500 ml",
+          "price": 11,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-mirinda-portocale",
+          "name": "Mirinda Portocale",
+          "description": "500 ml",
+          "price": 11,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-mirinda-struguri",
+          "name": "Mirinda Struguri",
+          "description": "500 ml",
+          "price": 11,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-mountain-dew",
+          "name": "Mountain Dew",
+          "description": "500 ml",
+          "price": 11,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-mirinda-portocale-157",
+          "name": "Mirinda Portocale",
+          "description": "250 ml",
+          "price": 10,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-pepsi-max",
+          "name": "Pepsi Max",
+          "description": "500 ml",
+          "price": 11,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-lipton-ice-tea-piersic",
+          "name": "Lipton Ice Tea Piersic",
+          "description": "500 ml",
+          "price": 11,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-lipton-ice-tea-zmeura",
+          "name": "Lipton Ice Tea Zmeura",
+          "description": "500 ml",
+          "price": 11,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-lipton-ice-tea-lamaie",
+          "name": "Lipton Ice Tea Lamaie",
+          "description": "500 ml",
+          "price": 11,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-lipton-ice-tea-ceai-verde",
+          "name": "Lipton Ice Tea Ceai Verde",
+          "description": "500 ml",
+          "price": 11,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-prigat-portocale",
+          "name": "Prigat Portocale",
+          "description": "250 ml",
+          "price": 11,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-prigat-kiwi-pere",
+          "name": "Prigat Kiwi-pere",
+          "description": "250 ml",
+          "price": 11,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-prigat-piersici-caise",
+          "name": "Prigat Piersici-Caise",
+          "description": "250 ml",
+          "price": 11,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-prigat-capsiuni-banana-mar",
+          "name": "Prigat capsiuni-banana-mar",
+          "description": "250 ml",
+          "price": 11,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-prigat-mar",
+          "name": "Prigat Mar",
+          "description": "250 ml",
+          "price": 11,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-evervess-tonic",
+          "name": "Evervess Tonic",
+          "description": "250 ml",
+          "price": 10,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-evervess-bitter-lemon",
+          "name": "Evervess Bitter lemon",
+          "description": "250 ml",
+          "price": 10,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-bavaria-0-alcool",
+          "name": "Bavaria (0% alcool)",
+          "description": "330 ml",
+          "price": 13,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-ursus-cooler-grapefruit-lamaie-cirese",
+          "name": "URSUS COOLER - GRAPEFRUIT, LĂMÂIE, CIREȘE",
+          "description": "330 ml",
+          "price": 13,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-peroni-0-alcool",
+          "name": "peroni (0% alcool)",
+          "description": "330 ml",
+          "price": 13,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-nenea-iancu-5-5-alcool",
+          "name": "Nenea Iancu (5.5% alcool)",
+          "description": "500ml",
+          "price": 20,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-ursus-black-6-alcool",
+          "name": "Ursus Black (6% alcool)",
+          "description": "330 ml",
+          "price": 13,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-ursus-retro-6-alcool",
+          "name": "Ursus Retro (6% alcool)",
+          "description": "330 ml",
+          "price": 13,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-ursus-minigold-6-alcool",
+          "name": "Ursus Minigold (6% alcool)",
+          "description": "330 ml",
+          "price": 13,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-paulaner-5-5-alcool",
+          "name": "Paulaner (5.5% alcool)",
+          "description": "500ml",
+          "price": 21,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-peroni-5-alcool",
+          "name": "Peroni (5% alcool)",
+          "description": "330ml",
+          "price": 14,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-peroni-capri-5-alcool",
+          "name": "Peroni Capri (5% alcool)",
+          "description": "330ml",
+          "price": 13,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-azuga-5-alcool",
+          "name": "Azuga (5% alcool)",
+          "description": "500ml",
+          "price": 20,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-ursus-draft",
+          "name": "URSUS DRAFT",
+          "description": "400 ml",
+          "price": 13,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-cabernet-sec-dry",
+          "name": "Cabernet (Sec/Dry)",
+          "description": "13%",
+          "price": 90,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-merlot-sec-dry",
+          "name": "Merlot (Sec/Dry)",
+          "description": "12.5%",
+          "price": 90,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-rara-neagra-sec-dry",
+          "name": "Rara Neagra (Sec/Dry)",
+          "description": "13.5%",
+          "price": 90,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-roze-sec-dry",
+          "name": "Roze (Sec/Dry)",
+          "description": "13.5%",
+          "price": 90,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-chardonnay-sec-dry",
+          "name": "Chardonnay (Sec/Dry)",
+          "description": "12%",
+          "price": 90,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-purcari-malbec-rosu-sec-dry",
+          "name": "Purcari (Malbec Rosu Sec/Dry)",
+          "description": "13.5%",
+          "price": 130,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-traminer-alb-sec-dry",
+          "name": "Traminer (Alb Sec/Dry)",
+          "description": "13%",
+          "price": 130,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-nocturne-cabernet-sauvignon-rosu-sec",
+          "name": "Nocturne (Cabernet Sauvignon Rosu Sec) -",
+          "description": "13%",
+          "price": 120,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-nocturne-rara-neagra-rosu-sec",
+          "name": "Nocturne (Rara Neagra Rosu Sec)",
+          "description": "13%",
+          "price": 120,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-nocturne-roze-sec",
+          "name": "Nocturne (Roze Sec)",
+          "description": "13%",
+          "price": 120,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-nocturne-chardonnay-alb-sec",
+          "name": "Nocturne (Chardonnay Alb Sec)",
+          "description": "13%",
+          "price": 120,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-nocturne-pinot-grigio-alb-sec",
+          "name": "Nocturne (Pinot Grigio Alb Sec)",
+          "description": "13%",
+          "price": 120,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-lupi-cabernet-sauvignon-merlot-saperavi-rosu-sec",
+          "name": "Lupi (Cabernet Sauvignon, Merlot, Saperavi Rosu Sec",
+          "description": "14.5%",
+          "price": 240,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-saperavi-saperavi-rosu-sec",
+          "name": "Saperavi (Saperavi Rosu Sec",
+          "description": "14%",
+          "price": 210,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-la-petite-sophie-chardonnay-feteasca-regala-riesling-alb-sec",
+          "name": "La Petite Sophie (Chardonnay, Feteasca Regala, Riesling Alb Sec)",
+          "description": "14%",
+          "price": 210,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-rose-pinot-noir-rose-sec",
+          "name": "Rose (Pinot Noir Rose Sec)",
+          "description": "12.5%",
+          "price": 130,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-red-couvee-pinot-noir-merlot-feteasca-neagra-rosu-sec",
+          "name": "Red Couvee (Pinot Noir, Merlot, Feteasca Neagra Rosu Sec)",
+          "description": "14.5%",
+          "price": 130,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-sauvignon-blanc-sauvignon-blanc-alb-sec",
+          "name": "Sauvignon Blanc (Sauvignon Blanc Alb Sec)",
+          "description": "13%",
+          "price": 130,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-la-jiana-rose",
+          "name": "la jiana Rose",
+          "description": "13%",
+          "price": 140,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-dragaica-rosie",
+          "name": "Dragaica roșie",
+          "description": "14%",
+          "price": 140,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-ruslanca-alba",
+          "name": "Ruslanca Albă",
+          "description": "14%",
+          "price": 140,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-cabernet-sauvignon-saperavi-cabernet-sauvignon-saperavi-rosu-sec",
+          "name": "Cabernet Sauvignon Saperavi (Cabernet Sauvignon,Saperavi Rosu Sec)",
+          "description": "14%",
+          "price": 170,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-chardonnay-chardonnay-alb-sec",
+          "name": "Chardonnay (Chardonnay Alb Sec)",
+          "description": "14%",
+          "price": 170,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-corte-vittorio-vin-spumant-alb-sec",
+          "name": "Corte Vittorio (Vin Spumant Alb Sec)",
+          "description": "12%",
+          "price": 80,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-mionetto-vin-spumant-alb-rose-sec",
+          "name": "Mionetto (Vin Spumant Alb/Rose Sec)",
+          "description": "11%",
+          "price": 90,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-cuvee-de-purcari-vin-spumant-alb-rose",
+          "name": "Cuvee de Purcari (Vin Spumant Alb/Rose)",
+          "description": "12.5%",
+          "price": 170,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-castel-huniade-feteasca-regala-feteasca-regala-alb-demisec",
+          "name": "Castel Huniade Feteasca Regala (Feteasca Regala Alb Demisec)",
+          "description": "11.5%",
+          "price": 65,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-castel-huniade-pinot-noir-merlot-pinot-noir-merlot-demidulce",
+          "name": "Castel Huniade Pinot Noir & Merlot (Pinot Noir, Merlot Demidulce)",
+          "description": "11.5%",
+          "price": 65,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-castel-huniade-rose-pinot-noir-rose-demisec",
+          "name": "Castel Huniade Rose (Pinot Noir Rose Demisec)",
+          "description": "11.5%",
+          "price": 50,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-castel-huniade-cabernet-sauvignon",
+          "name": "CASTEL HUNIADE CABERNET SAUVIGNON",
+          "description": "Cabernet Sauvignon Roșu Sec",
+          "price": 65,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-selene-cabernet-sauvignon-rosu-sec",
+          "name": "Selene (Cabernet Sauvignon Rosu Sec)",
+          "description": "14%",
+          "price": 130,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-castel-huniade-feteasca-regala",
+          "name": "Castel Huniade Fetească Regală",
+          "description": "11.5%",
+          "price": 17,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-castel-huniade-pinot-noir-merlot",
+          "name": "castel Huniade pinot noir & Merlot",
+          "description": "11.5%",
+          "price": 22,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-castel-huniade-rose",
+          "name": "castel huniade rose",
+          "description": "11.5%",
+          "price": 24,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-martell-vs",
+          "name": "Martell VS",
+          "description": "40%",
+          "price": 31,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-remy-martin-vs",
+          "name": "Remy Martin vs",
+          "description": "40%",
+          "price": 45,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-courvoisier-vs",
+          "name": "Courvoisier VS",
+          "description": "40%",
+          "price": 31,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-jidvei-vs",
+          "name": "jidvei VS",
+          "description": "40%",
+          "price": 19,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-vecchia-romangna",
+          "name": "Vecchia Romangna",
+          "description": "38%",
+          "price": 17,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-glenlivet-12-years",
+          "name": "GLENLIVET 12 YEARS",
+          "description": "40%",
+          "price": 36,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-johnnie-walker",
+          "name": "JOHNNIE WALKER",
+          "description": "40%",
+          "price": 17,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-johnnie-walker-black-label",
+          "name": "JOHNNIE WALKER BLACK LABEL",
+          "description": "40%",
+          "price": 28,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-j-b-rare",
+          "name": "J&B RARE",
+          "description": "40%",
+          "price": 16,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-jack-daniel-s",
+          "name": "Jack Daniel's",
+          "description": "40%",
+          "price": 22,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-chivas-regal-12-yo",
+          "name": "CHIVAS REGAL 12 YO",
+          "description": "40%",
+          "price": 23,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-jamesom-40",
+          "name": "JAMESOM 40%",
+          "description": "40%",
+          "price": 18,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-gentleman-jack",
+          "name": "GENTLEMAN JACK",
+          "description": "40%",
+          "price": 28,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-whisky-cream-baylles-40-ml",
+          "name": "WHISKY CREAM BAYLLES, 40 ML",
+          "description": "40%",
+          "price": 18,
+          "currency": "RON",
+          "available": true,
+          "quantity": "40 ML"
+        },
+        {
+          "id": "bauturi-martini-bianco",
+          "name": "MARTINI BIANCO",
+          "description": "14,4%",
+          "price": 18,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-martini-rosso",
+          "name": "MARTINI ROSSO",
+          "description": "14,4%",
+          "price": 18,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-cinzano-bianco",
+          "name": "CINZANO BIANCO",
+          "description": "14,4%",
+          "price": 18,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-cinziano-rosso",
+          "name": "CINZIANO ROSSO",
+          "description": "14,4%",
+          "price": 18,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-wembley",
+          "name": "WEMBLEY",
+          "description": "40%",
+          "price": 16,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-beffeater",
+          "name": "BEFFEATER",
+          "description": "40%",
+          "price": 16,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-beffeater-pink",
+          "name": "BEFFEATER PINK",
+          "description": "40%",
+          "price": 16,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-bumbu",
+          "name": "Bumbu",
+          "description": "40%",
+          "price": 31,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-havana-bianco",
+          "name": "HAVANA BIANCO",
+          "description": "40%",
+          "price": 21,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-havana-black",
+          "name": "HAVANA Black",
+          "description": "40%",
+          "price": 21,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-bacardi-alb",
+          "name": "BACARDI ALB",
+          "description": "37,5%",
+          "price": 18,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-bacardi-negru",
+          "name": "BACARDI NEGRU",
+          "description": "37,5%",
+          "price": 18,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-jagermeister",
+          "name": "JAGERMEISTER",
+          "description": "35%",
+          "price": 18,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-disaronno-amaretto",
+          "name": "DISARONNO AMARETTO",
+          "description": "28%",
+          "price": 18,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-campari",
+          "name": "campari",
+          "description": "25%",
+          "price": 18,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-aperol-bitter",
+          "name": "aperol bitter",
+          "description": "11%",
+          "price": 18,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-unicum-40-ml",
+          "name": "Unicum 40 ml",
+          "description": "40 ml",
+          "price": 18,
+          "currency": "RON",
+          "available": true,
+          "quantity": "40 ml"
+        },
+        {
+          "id": "bauturi-absolut",
+          "name": "absolut",
+          "description": "40%",
+          "price": 16,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-finlandia",
+          "name": "finlandia",
+          "description": "40%",
+          "price": 15,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-greygoose",
+          "name": "GREYGOOSE",
+          "description": "40%",
+          "price": 33,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-tazovsky",
+          "name": "TAZOVSKY",
+          "description": "40%",
+          "price": 14,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-olmeca-alb",
+          "name": "OLMECA ALB",
+          "description": "38%",
+          "price": 19,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-hugo-315-ml",
+          "name": "HUGO",
+          "description": "Prosecco, sirop de zmeură, mentă, apă minerală cu aromă de lămâie",
+          "price": 33,
+          "currency": "RON",
+          "available": true,
+          "quantity": "315 ML"
+        },
+        {
+          "id": "bauturi-aperol-spritz-150ml",
+          "name": "APEROL SPRITZ",
+          "description": "Prosecco, aperol, 7UP",
+          "price": 33,
+          "currency": "RON",
+          "available": true,
+          "quantity": "150ML"
+        },
+        {
+          "id": "bauturi-gin-tonic-180-ml",
+          "name": "GIN TONIC",
+          "description": "Gin, tonic, gheață, felie de lămâie.",
+          "price": 32,
+          "currency": "RON",
+          "available": true,
+          "quantity": "180 ML"
+        },
+        {
+          "id": "bauturi-campari-170ml",
+          "name": "CAMPARI",
+          "description": "Campari, suc de portocală.",
+          "price": 33,
+          "currency": "RON",
+          "available": true,
+          "quantity": "170ML"
+        },
+        {
+          "id": "bauturi-negroni-80ml",
+          "name": "NEGRONI",
+          "description": "Gin, martini roșu, campari.",
+          "price": 33,
+          "currency": "RON",
+          "available": true,
+          "quantity": "80ML"
+        },
+        {
+          "id": "bauturi-megapark-375mliluri-faraalcool",
+          "name": "MegaPark",
+          "description": "Suc de afine, suc de lămâie, sirop de zahăr, suc de măr, apă minerală.",
+          "price": 34,
+          "currency": "RON",
+          "available": true
+        },
+        {
+          "id": "bauturi-arizona-300ml",
+          "name": "ARIZONA",
+          "description": "Suc de portocale, Sprite, grenadine.",
+          "price": 33,
+          "currency": "RON",
+          "available": true,
+          "quantity": "300ML"
+        }
+      ]
+    }
+  ]
+}

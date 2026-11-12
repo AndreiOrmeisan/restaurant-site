@@ -1,11 +1,11 @@
 "use client";
 import { useRef, useState } from "react";
 import Image from "next/image";
-import { Pizza, Soup, Salad, CakeSlice, CupSoda, Search, X, Scale, UtensilsCrossed } from "lucide-react";
+import { Pizza, Soup, Salad, CakeSlice, CupSoda, Search, X, Scale, UtensilsCrossed, Sandwich, Beef, Fish, Leaf, CookingPot } from "lucide-react";
 import type { Restaurant } from "@/lib/restaurants/schema.mts";
 import styles from "./classic.module.css";
 function normalize(value: string) { return value.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase(); }
-const icons = { pizza: Pizza, pasta: Soup, salad: Salad, dessert: CakeSlice, drink: CupSoda };
+const icons = { pizza: Pizza, pasta: Soup, salad: Salad, dessert: CakeSlice, drink: CupSoda, burger: Sandwich, meat: Beef, fish: Fish, starter: UtensilsCrossed, soup: CookingPot, vegan: Leaf };
 const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 export function RestaurantMenu({ categories, description }: { categories: Restaurant["categories"]; description: string }) {

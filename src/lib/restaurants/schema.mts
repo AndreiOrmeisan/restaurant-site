@@ -26,7 +26,7 @@ const categorySchema = z.strictObject({
   id,
   name: text,
   products: z.array(productSchema).min(1),
-  icon: z.enum(["pizza", "pasta", "salad", "dessert", "drink"]).optional(),
+  icon: z.enum(["pizza", "pasta", "salad", "dessert", "drink", "burger", "meat", "fish", "starter", "soup", "vegan"]).optional(),
 });
 
 export const restaurantSchema = z.strictObject({
@@ -37,6 +37,7 @@ export const restaurantSchema = z.strictObject({
   about: z.strictObject({ title: text, description: text }),
   menuDescription: text,
   logo: imagePath,
+  logoStyle: z.enum(["wordmark", "seal"]).optional(),
   heroImage: imagePath.optional(),
   layout: z.literal("classic"),
   theme: z.strictObject({
@@ -46,6 +47,7 @@ export const restaurantSchema = z.strictObject({
     accent: color,
   }),
   phone: phone.optional(),
+  email: z.email().optional(),
   whatsapp: phone.optional(),
   address: text.optional(),
   mapsUrl: z.url({ protocol: /^https$/ }).optional(),

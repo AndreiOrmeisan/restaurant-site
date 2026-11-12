@@ -26,6 +26,10 @@
   height:72px;
   object-fit:contain
 }
+.site[data-logo-style="seal"] .logo img {
+  width:100px;
+  height:80px;
+}
 .header nav {
   display:flex;
   gap:2rem;
@@ -183,7 +187,7 @@
 }
 .categories {
   display:flex;
-  justify-content:center;
+  justify-content:safe center;
   gap:20px;
   margin:26px auto 0;
   padding-bottom:10px;

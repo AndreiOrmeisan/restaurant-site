@@ -1,6 +1,6 @@
 import type { CSSProperties } from "react";
 import Image from "next/image";
-import { ArrowRight, ArrowUp, Clock3, MapPin, Phone, Play, UtensilsCrossed } from "lucide-react";
+import { ArrowRight, ArrowUp, Clock3, Mail, MapPin, Phone, Play, UtensilsCrossed } from "lucide-react";
 import type { Restaurant } from "@/lib/restaurants/schema.mts";
 import { RestaurantMenu } from "./menu";
 import styles from "./classic.module.css";
@@ -8,7 +8,7 @@ import styles from "./classic.module.css";
 export function ClassicRestaurant({ restaurant: r }: { restaurant: Restaurant }) {
   const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const theme = { "--restaurant-paper": r.theme.background, "--restaurant-ink": r.theme.text, "--restaurant-primary": r.theme.primary, "--restaurant-accent": r.theme.accent } as CSSProperties;
-  return <div className={styles.site} style={theme} id="sus">
+  return <div className={styles.site} style={theme} id="sus" data-logo-style={r.logoStyle}>
     <a className={styles.skip} href="#meniu">Sari la meniu</a>
     <header className={styles.header}><div className={styles.wrap}>
       <a className={styles.logo} href="#sus" aria-label={`${r.name} — ${r.tagline}`}><Image src={base + r.logo} alt={r.name} width={210} height={72} unoptimized /></a>
@@ -34,6 +34,7 @@ export function ClassicRestaurant({ restaurant: r }: { restaurant: Restaurant })
       <section className={`${styles.wrap} ${styles.contact}`} id="contact" aria-labelledby="contact-title"><div><p className={styles.eyebrow}>Te așteptăm la masă</p><h2 id="contact-title">Ne vedem la {r.name}</h2></div><div className={styles.contactInfo}>
         {r.address && <p><MapPin aria-hidden="true" /><span>{r.address}</span></p>}
         {r.openingHours && <p><Clock3 aria-hidden="true" /><span>{r.openingHours.join(" · ")}</span></p>}
+        {r.email && <p><Mail aria-hidden="true" /><a href={`mailto:${r.email}`}>{r.email}</a></p>}
         <div className={styles.actions}>{r.phone && <a className={styles.button} href={`tel:${r.phone}`}><Phone size={18} />{r.phone}</a>}{r.whatsapp && <a className={styles.secondaryButton} href={`https://wa.me/${r.whatsapp.slice(1)}`}>WhatsApp</a>}{r.mapsUrl && <a className={styles.secondaryButton} href={r.mapsUrl}>Deschide harta <ArrowRight size={16} /></a>}</div>
       </div></section>
     </main>
