@@ -1,76 +1,42 @@
 import type { CSSProperties } from "react";
 import Image from "next/image";
+import { ArrowRight, ArrowUp, Clock3, MapPin, Phone, Play, UtensilsCrossed } from "lucide-react";
 import type { Restaurant } from "@/lib/restaurants/schema.mts";
 import { RestaurantMenu } from "./menu";
 import styles from "./classic.module.css";
 
-export function ClassicRestaurant({ restaurant }: { restaurant: Restaurant }) {
-  const { name, logo, tagline, heroImage, theme, phone, whatsapp, address, openingHours, mapsUrl } = restaurant;
-  const hasContact = phone || whatsapp || address || openingHours || mapsUrl;
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-  const themeVariables = {
-    "--restaurant-paper": theme.background,
-    "--restaurant-ink": theme.text,
-    "--restaurant-primary": theme.primary,
-    "--restaurant-accent": theme.accent,
-  } as CSSProperties;
-
-  return (
-    <div className={styles.site} style={themeVariables}>
-      <header className={styles.header} id="sus">
-        <div className={styles.wrap}>
-          <a href="#sus" aria-label={name}>
-            <Image src={basePath + logo} alt="" width={124} height={47} unoptimized />
-          </a>
-          <nav aria-label="Navigare principală">
-            <a href="#meniu">Meniu</a>
-            {hasContact && <a href="#contact">Contact</a>}
-          </nav>
+export function ClassicRestaurant({ restaurant: r }: { restaurant: Restaurant }) {
+  const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+  const theme = { "--restaurant-paper": r.theme.background, "--restaurant-ink": r.theme.text, "--restaurant-primary": r.theme.primary, "--restaurant-accent": r.theme.accent } as CSSProperties;
+  return <div className={styles.site} style={theme} id="sus">
+    <a className={styles.skip} href="#meniu">Sari la meniu</a>
+    <header className={styles.header}><div className={styles.wrap}>
+      <a className={styles.logo} href="#sus" aria-label={`${r.name} — ${r.tagline}`}><Image src={base + r.logo} alt={r.name} width={210} height={72} unoptimized /></a>
+      <nav aria-label="Navigare principală"><a className={styles.homeLink} href="#sus">Acasă</a><a href="#meniu">Meniu</a><a href="#despre">Despre noi</a><a href="#contact">Contact</a></nav>
+      <div className={styles.headerDetails}>
+        {r.address && <div><MapPin /><span>{r.address.split(" · ")[0]}<small>{r.address.split(" · ").slice(1).join(" · ")}</small></span></div>}
+        {r.openingHours && <div><Clock3 /><span>{r.openingHours[0]}<small>{r.openingHours.slice(1).join(" · ")}</small></span></div>}
+      </div>
+      {r.phone && <a className={styles.button} href={`tel:${r.phone}`}><Phone size={19} /> Sună acum</a>}
+    </div></header>
+    <main>
+      <section className={styles.hero} aria-labelledby="restaurant-title">
+        {r.heroImage && <div className={styles.heroImage}><Image src={base + r.heroImage} alt={r.hero.imageAlt} fill sizes="(max-width: 700px) 100vw, 65vw" unoptimized preload /></div>}
+        <div className={styles.heroContent}>
+          <p className={styles.eyebrow}>{r.hero.eyebrow}</p>
+          <h1 id="restaurant-title">{r.hero.title} <em>{r.hero.emphasis}</em></h1>
+          <p className={styles.heroDescription}>{r.hero.description}</p>
+          <div className={styles.actions}><a className={styles.button} href="#meniu"><UtensilsCrossed size={21} />Vezi meniul <ArrowRight size={20} /></a><a className={styles.discover} href="#despre"><span><Play size={17} fill="currentColor" /></span>Descoperă<br />{r.name}</a></div>
         </div>
-      </header>
-      <main>
-        <section
-          className={`${styles.hero} grid ${heroImage ? "md:grid-cols-[minmax(0,4fr)_minmax(0,6fr)]" : ""}`}
-          aria-labelledby="restaurant-title"
-        >
-          <div className={styles.heroContent}>
-            <h1 id="restaurant-title">{name}</h1>
-            <p>{tagline}</p>
-            <div className={styles.actions}>
-              <a className={styles.button} href="#meniu">Vezi meniul <span aria-hidden="true">↓</span></a>
-              {phone && <a className={styles.secondaryButton} href={`tel:${phone}`}>Sună</a>}
-            </div>
-          </div>
-          {heroImage && (
-            <div className={styles.heroImage}>
-              <Image src={basePath + heroImage} alt="" fill sizes="(max-width: 767px) 100vw, 60vw" unoptimized preload />
-            </div>
-          )}
-        </section>
-        <RestaurantMenu categories={restaurant.categories} />
-        {hasContact && (
-          <section className={`${styles.wrap} ${styles.contact}`} id="contact">
-            <h2>Contact</h2>
-            {address && <address>{address}</address>}
-            {openingHours && (
-              <ul>{openingHours.map((line) => <li key={line}>{line}</li>)}</ul>
-            )}
-            <div className={styles.actions}>
-              {phone && <a href={`tel:${phone}`}>{phone}</a>}
-              {whatsapp && <a href={`https://wa.me/${whatsapp.slice(1)}`}>WhatsApp</a>}
-              {mapsUrl && <a href={mapsUrl}>Deschide harta</a>}
-            </div>
-          </section>
-        )}
-      </main>
-      <footer className={styles.footer}>
-        <div className={styles.wrap}>
-          <p>© {name}</p>
-          {address && <p>{address}</p>}
-          {phone && <a href={`tel:${phone}`}>{phone}</a>}
-          <a href="#sus">Înapoi sus ↑</a>
-        </div>
-      </footer>
-    </div>
-  );
+      </section>
+      <RestaurantMenu categories={r.categories} description={r.menuDescription} />
+      <section className={`${styles.wrap} ${styles.about}`} id="despre"><p className={styles.eyebrow}>{r.name} · {r.tagline}</p><h2>{r.about.title}</h2><p>{r.about.description}</p></section>
+      <section className={`${styles.wrap} ${styles.contact}`} id="contact" aria-labelledby="contact-title"><div><p className={styles.eyebrow}>Te așteptăm la masă</p><h2 id="contact-title">Ne vedem la {r.name}</h2></div><div className={styles.contactInfo}>
+        {r.address && <p><MapPin aria-hidden="true" /><span>{r.address}</span></p>}
+        {r.openingHours && <p><Clock3 aria-hidden="true" /><span>{r.openingHours.join(" · ")}</span></p>}
+        <div className={styles.actions}>{r.phone && <a className={styles.button} href={`tel:${r.phone}`}><Phone size={18} />{r.phone}</a>}{r.whatsapp && <a className={styles.secondaryButton} href={`https://wa.me/${r.whatsapp.slice(1)}`}>WhatsApp</a>}{r.mapsUrl && <a className={styles.secondaryButton} href={r.mapsUrl}>Deschide harta <ArrowRight size={16} /></a>}</div>
+      </div></section>
+    </main>
+    <footer className={styles.footer}><div className={styles.wrap}><p>© {new Date().getFullYear()} {r.name} · {r.tagline}</p><a href="#sus">Înapoi sus <ArrowUp size={16} /></a></div></footer>
+  </div>;
 }

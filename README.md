@@ -1,5 +1,19 @@
 # Generator de site-uri pentru restaurante
 
+## FORNO — Classic
+
+Responsive implementation of the supplied desktop reference, with an adapted mobile layout. The JSON config owns branding, hero and about copy, colors, contact details, category icons, products, prices, and local image paths. The supported layout identifier is `classic`.
+
+- Preview: run `corepack.cmd pnpm dev`, then open http://localhost:3000/forno.
+- Category buttons select a category. Search matches names, ingredients, and category names across the entire menu, ignoring Romanian diacritics. Clearing search restores the selected category.
+- Phone and WhatsApp links appear only when `phone` and `whatsapp` are configured as international numbers (for example, `+40…`). No fictional phone number has been supplied.
+- The address and hours are fictional sample content from the reference; replace them before real use.
+- The existing `hero.webp` is reused for the hero and Margherita. All other products use explicitly marked local SVG placeholders (`placeholder-*.svg`), which need replacing with actual dish photography via the product `image` field in JSON. The reference screenshot is never used as a page background.
+- Only one desktop reference was available. Exact mobile-reference comparison and browser visual QA remain unverified.
+- No favorites, cart, ordering, login, or payment features are included.
+
+Required configuration additions: `hero` (`eyebrow`, `title`, `emphasis`, `description`, `imageAlt`), `about` (`title`, `description`), and `menuDescription`. Category `icon` accepts `pizza`, `pasta`, `salad`, `dessert`, or `drink`.
+
 Proiect Next.js cu App Router, TypeScript și Tailwind CSS. Fiecare restaurant va avea propria configurație JSON și va fi generat ca pagină statică.
 
 ## Dezvoltare locală pe Windows

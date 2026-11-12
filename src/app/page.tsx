@@ -1,13 +1,22 @@
-﻿export default function Home() {
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-  const destination = basePath ? `${basePath}/forno/` : "/forno";
+import type { Metadata } from "next";
+import { ClassicRestaurant } from "@/components/restaurants/classic";
+import { loadRestaurants } from "@/lib/restaurants/load.mts";
 
-  return (
-    <>
-      <meta httpEquiv="refresh" content={`0;url=${destination}`} />
-      <main className="p-6">
-        <a className="underline" href={destination}>Deschide meniul FORNO</a>
-      </main>
-    </>
-  );
+// Single-restaurant entry point; each config also has a dedicated slug route.
+function defaultRestaurant() {
+  const restaurant = loadRestaurants()[0];
+  if (!restaurant) throw new Error("No restaurant configuration found.");
+  return restaurant;
+}
+
+export function generateMetadata(): Metadata {
+  const restaurant = defaultRestaurant();
+  return {
+    title: `${restaurant.name} — ${restaurant.tagline}`,
+    description: restaurant.hero.description,
+  };
+}
+
+export default function Home() {
+  return <ClassicRestaurant restaurant={defaultRestaurant()} />;
 }

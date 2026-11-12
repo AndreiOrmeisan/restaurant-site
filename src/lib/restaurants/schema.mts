@@ -26,15 +26,19 @@ const categorySchema = z.strictObject({
   id,
   name: text,
   products: z.array(productSchema).min(1),
+  icon: z.enum(["pizza", "pasta", "salad", "dessert", "drink"]).optional(),
 });
 
 export const restaurantSchema = z.strictObject({
   slug: id,
   name: text,
   tagline: text,
+  hero: z.strictObject({ eyebrow: text, title: text, emphasis: text, description: text, imageAlt: text }),
+  about: z.strictObject({ title: text, description: text }),
+  menuDescription: text,
   logo: imagePath,
   heroImage: imagePath.optional(),
-  layout: z.enum(["classic", "modern", "minimal"]),
+  layout: z.literal("classic"),
   theme: z.strictObject({
     primary: color,
     background: color,

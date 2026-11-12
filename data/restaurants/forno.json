@@ -19,45 +19,62 @@
       "products": [
         {
           "id": "margherita",
-          "name": "Margherita",
+          "name": "Pizza Margherita",
           "description": "Sos de roșii, mozzarella fior di latte și busuioc proaspăt.",
-          "price": 36,
+          "price": 32,
           "currency": "RON",
-          "quantity": "390 g",
+          "quantity": "450 g",
           "available": true,
-          "allergens": ["Gluten", "Lapte"]
+          "allergens": [
+            "Gluten",
+            "Lapte"
+          ],
+          "image": "/restaurants/forno/hero.webp"
         },
         {
           "id": "diavola",
-          "name": "Diavola",
+          "name": "Pizza Diavola",
           "description": "Mozzarella, salam picant și sos de roșii.",
-          "price": 45,
+          "price": 39,
           "currency": "RON",
-          "quantity": "440 g",
+          "quantity": "480 g",
           "available": true,
-          "allergens": ["Gluten", "Lapte"]
+          "allergens": [
+            "Gluten",
+            "Lapte"
+          ],
+          "image": "/restaurants/forno/placeholder-pizza.svg"
         },
         {
-          "id": "funghi",
-          "name": "Funghi",
-          "description": "Ciuperci rumenite, mozzarella, cimbru și parmezan.",
-          "price": 43,
+          "id": "quattro-formaggi",
+          "name": "Pizza Quattro Formaggi",
+          "description": "Mozzarella, gorgonzola, parmezan, emmental, smântână.",
+          "price": 42,
           "currency": "RON",
-          "quantity": "430 g",
+          "quantity": "470 g",
           "available": true,
-          "allergens": ["Gluten", "Lapte"]
+          "allergens": [
+            "Gluten",
+            "Lapte"
+          ],
+          "image": "/restaurants/forno/placeholder-pizza.svg"
         },
         {
           "id": "prosciutto-rucola",
-          "name": "Prosciutto e rucola",
+          "name": "Pizza Prosciutto e Rucola",
           "description": "Prosciutto crudo, rucola proaspătă și fulgi de parmezan.",
-          "price": 49,
+          "price": 44,
           "currency": "RON",
-          "quantity": "460 g",
+          "quantity": "480 g",
           "available": true,
-          "allergens": ["Gluten", "Lapte"]
+          "allergens": [
+            "Gluten",
+            "Lapte"
+          ],
+          "image": "/restaurants/forno/placeholder-pizza.svg"
         }
-      ]
+      ],
+      "icon": "pizza"
     },
     {
       "id": "paste",
@@ -71,7 +88,12 @@
           "currency": "RON",
           "quantity": "360 g",
           "available": true,
-          "allergens": ["Gluten", "Lapte", "Țelină"]
+          "allergens": [
+            "Gluten",
+            "Lapte",
+            "Țelină"
+          ],
+          "image": "/restaurants/forno/placeholder-pasta.svg"
         },
         {
           "id": "tagliatelle-ciuperci",
@@ -81,7 +103,12 @@
           "currency": "RON",
           "quantity": "340 g",
           "available": true,
-          "allergens": ["Gluten", "Ouă", "Lapte"]
+          "allergens": [
+            "Gluten",
+            "Ouă",
+            "Lapte"
+          ],
+          "image": "/restaurants/forno/placeholder-pasta.svg"
         },
         {
           "id": "penne-arrabbiata",
@@ -91,9 +118,13 @@
           "currency": "RON",
           "quantity": "330 g",
           "available": true,
-          "allergens": ["Gluten"]
+          "allergens": [
+            "Gluten"
+          ],
+          "image": "/restaurants/forno/placeholder-pasta.svg"
         }
-      ]
+      ],
+      "icon": "pasta"
     },
     {
       "id": "salate",
@@ -107,7 +138,10 @@
           "currency": "RON",
           "quantity": "250 g",
           "available": true,
-          "allergens": ["Lapte"]
+          "allergens": [
+            "Lapte"
+          ],
+          "image": "/restaurants/forno/placeholder-salad.svg"
         },
         {
           "id": "salata-pui",
@@ -117,9 +151,13 @@
           "currency": "RON",
           "quantity": "320 g",
           "available": true,
-          "allergens": ["Muștar"]
+          "allergens": [
+            "Muștar"
+          ],
+          "image": "/restaurants/forno/placeholder-salad.svg"
         }
-      ]
+      ],
+      "icon": "salad"
     },
     {
       "id": "deserturi",
@@ -133,7 +171,12 @@
           "currency": "RON",
           "quantity": "160 g",
           "available": true,
-          "allergens": ["Gluten", "Ouă", "Lapte"]
+          "allergens": [
+            "Gluten",
+            "Ouă",
+            "Lapte"
+          ],
+          "image": "/restaurants/forno/placeholder-dessert.svg"
         },
         {
           "id": "panna-cotta",
@@ -143,9 +186,13 @@
           "currency": "RON",
           "quantity": "150 g",
           "available": true,
-          "allergens": ["Lapte"]
+          "allergens": [
+            "Lapte"
+          ],
+          "image": "/restaurants/forno/placeholder-dessert.svg"
         }
-      ]
+      ],
+      "icon": "dessert"
     },
     {
       "id": "bauturi",
@@ -158,7 +205,8 @@
           "price": 19,
           "currency": "RON",
           "quantity": "400 ml",
-          "available": true
+          "available": true,
+          "image": "/restaurants/forno/placeholder-drink.svg"
         },
         {
           "id": "espresso",
@@ -167,7 +215,8 @@
           "price": 11,
           "currency": "RON",
           "quantity": "30 ml",
-          "available": true
+          "available": true,
+          "image": "/restaurants/forno/placeholder-drink.svg"
         },
         {
           "id": "apa-minerala",
@@ -176,9 +225,28 @@
           "price": 12,
           "currency": "RON",
           "quantity": "330 ml",
-          "available": true
+          "available": true,
+          "image": "/restaurants/forno/placeholder-drink.svg"
         }
-      ]
+      ],
+      "icon": "drink"
     }
+  ],
+  "hero": {
+    "eyebrow": "PIZZA · PASTE · SALATE · DESERTURI",
+    "title": "Pizza făcută\ncu",
+    "emphasis": "pasiune",
+    "description": "Ingrediente proaspete, rețete italiene autentice\nși gustul care te face să revii.",
+    "imageAlt": "Pizza cu mozzarella și busuioc, proaspăt scoasă din cuptorul cu lemne"
+  },
+  "about": {
+    "title": "Un strop de Italia. Multă pasiune.",
+    "description": "La FORNO, mesele bune încep cu ingrediente simple, aluat rumenit în cuptor și bucuria de a fi împreună. Descoperă rețetele noastre inspirate din bucătăria italiană."
+  },
+  "menuDescription": "Descoperă preparatele noastre, inspirate din bucătăria italiană.",
+  "address": "Cluj-Napoca · Str. Napoca nr. 12",
+  "openingHours": [
+    "Luni – Duminică",
+    "11:00 – 23:00"
   ]
 }

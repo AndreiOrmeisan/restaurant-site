@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 110" role="img" aria-labelledby="title">
   <title id="title">FORNO</title>
-  <path fill="#B83D2F" d="M12 102V53a42 42 0 0 1 84 0v49H12Z"/>
-  <path fill="#F8F3EB" d="M26 88V54a28 28 0 0 1 56 0v34H26Z"/>
-  <path fill="#D9A35F" d="M54 81a13 13 0 0 1-13-13c0-6 4-12 9-17 0 6 3 9 5 10 3-5 5-10 5-15 6 7 9 14 9 21a14 14 0 0 1-15 14Z"/>
-  <text x="109" y="80" fill="#25211E" font-family="Georgia, serif" font-size="55" font-weight="700" letter-spacing="2">FORNO</text>
+  <path fill="#B83D2F" d="M43 98C-2 90 6 61 24 40c-2 18 1 22 5 26-5-27 32-39 16-64 39 27 12 47 24 56 7-9 6-17 4-22 24 31 16 57-10 62 15-21-3-23-5-42-2 13-17 20-13 32-9-5-11-14-10-20-10 12-8 23 8 30Z"/>
+  <text x="92" y="66" fill="#25211E" font-family="Georgia, serif" font-size="60" font-weight="700">FORNO</text>
+  <path d="M94 87h27m157 0h28" stroke="#B83D2F"/>
+  <text x="129" y="94" fill="#25211E" font-family="Georgia, serif" font-size="23" font-style="italic">Pizza &amp; More</text>
 </svg>
